@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Enter a keyword:");
         String keyWordFromInput = input.next();
         keyWord = transformKeyWord(keyWordFromInput);
-        System.out.println(keyWord);
+        //System.out.println(keyWord);
         matrix = matrixGenerator(keyWord);
         printMatrix(matrix);
 
